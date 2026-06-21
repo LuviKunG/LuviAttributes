@@ -1,0 +1,15 @@
+{
+  "name": "com.luvikung.attributes",
+  "displayName": "Luvi Attributes",
+  "description": "A collection of custom Unity inspector attributes for enforcing field validation and display rules directly in code.",
+  "version": "1.0.0",
+  "unity": "2022.1",
+  "keywords": [
+    "custom",
+    "inspector",
+    "unity"
+  ],
+  "author": "Thanut Panichyotai",
+  "license": "CC BY-NC-ND 4.0",
+  "dependencies": {}
+}
