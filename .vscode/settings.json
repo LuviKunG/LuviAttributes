@@ -1,0 +1,52 @@
+{
+    "dotnet.preferCSharpExtension": true,
+    "files.exclude": {
+        "Library/": true,
+        "Temp/": true,
+        "**/Assets/**/*.meta": true,
+        "*.slnx": true,
+        ".vs/": true,
+        "obj/": true,
+        "Build/": true,
+        "Builds/": true,
+        "Logs/": true,
+        "UserSettings/": true,
+        "MemoryCaptures/": true
+    },
+    "search.exclude": {
+        "Library": true,
+        "Temp": true,
+        "Assets/**/*.meta": true,
+        "*.sln": true,
+        "*.slnx": true,
+        "*.csproj": true,
+        ".vs": true,
+        "obj": true,
+        "Build": true,
+        "Builds": true,
+        "Logs": true,
+        "UserSettings": true,
+        "MemoryCaptures": true
+    },
+    "files.watcherExclude": {
+        "**/Library/**": true,
+        "**/Temp/**": true,
+        "**/.vs/**": true,
+        "**/Assets/**/*.meta": true,
+        "**/obj/**": true,
+        "*.sln": true,
+        "*.slnx": true,
+        "*.csproj": true,
+        "**/Build/**": true,
+        "**/Builds/**": true,
+        "**/Logs/**": true
+    },
+    "files.associations": {
+        "*.meta": "yaml",
+        "*.asset": "yaml",
+        "*.unity": "yaml",
+        "*.shader": "shaderlab",
+        "*.inputactions": "json"
+    },
+    "dotnet.defaultSolution": "LuviAttributes.slnx"
+}
