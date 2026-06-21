@@ -2,7 +2,7 @@
   "name": "com.luvikung.attributes",
   "displayName": "Luvi Attributes",
   "description": "A collection of custom Unity inspector attributes for enforcing field validation and display rules directly in code.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "unity": "2022.1",
   "keywords": [
     "custom",
@@ -11,5 +11,16 @@
   ],
   "author": "Thanut Panichyotai",
   "license": "CC BY-NC-ND 4.0",
-  "dependencies": {}
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Example",
+      "description": "A playable ball-rolling scene that demonstrates all three attributes in a real Inspector setup: [PrefabAsset] on spawnable prefab references, [NotNull] on required component lists, and [ReadOnly] for live tilt values visible during Play Mode.",
+      "path": "Examples~"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuviKunG/LuviInspector.git"
+  }
 }
